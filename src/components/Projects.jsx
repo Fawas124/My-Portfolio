@@ -2,57 +2,57 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with user authentication, product management, and payment integration.',
-      image: '/project1.jpg',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      liveUrl: '#',
-      codeUrl: '#'
+      title: 'Alowoloko Global Company',
+      description: 'Alowoloko Global Company Limited: Reliable provider of quality construction materials and real estate services in Nigeria.',
+      image: '/project1.png',
+      tags: ['React', 'Node.js'],
+      liveUrl: 'https://alowoloko-global.vercel.app/',
+      // codeUrl: '#'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A productivity application for managing tasks with drag-and-drop functionality and team collaboration.',
-      image: '/project2.jpg',
-      tags: ['Vue.js', 'Firebase', 'CSS3'],
-      liveUrl: '#',
-      codeUrl: '#'
+      title: 'Temperature Converter',
+      description: 'Temperature conversion lets you switch between Fahrenheit and Celsius. Easily convert Fahrenheit to Celsius or Celsius to Fahrenheit for everyday use.',
+      image: '/project2.png',
+      tags: ['Java'],
+      // liveUrl: '#',
+      // codeUrl: '#'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather application with forecast data, location detection, and interactive maps.',
-      image: '/project3.jpg',
-      tags: ['JavaScript', 'API Integration', 'Bootstrap'],
-      liveUrl: '#',
-      codeUrl: '#'
+      title: 'Book Store Aplication',
+      description: 'Discover, explore, and buy books with personalized recommendations and seamless shopping.',
+      image: '/project3.png',
+      tags: ['Dart', 'Flutter', 'Books API'],
+      // liveUrl: '#',
+      // codeUrl: '#'
     },
     {
       id: 4,
-      title: 'Social Media Analytics',
-      description: 'Dashboard for tracking social media metrics and generating reports with data visualization.',
-      image: '/project4.jpg',
-      tags: ['React', 'D3.js', 'Express', 'MySQL'],
+      title: 'Number_Guesser',
+      description: 'Number_guesser is a web-based game challenging players to guess a secret number within ranges across easy, medium, and hard levels. Hints, a progress bar tracks remaining attempts, scoring rewards accuracy.',
+      image: '/project4.png',
+      tags: ['Python', 'Flask', 'Postgre Sql', 'MySQL'],
       liveUrl: '#',
-      codeUrl: '#'
+      // codeUrl: '#'
     },
     {
       id: 5,
-      title: 'Inventory Management System',
-      description: 'Enterprise solution for tracking inventory, orders, and suppliers with role-based access control.',
-      image: '/project5.jpg',
-      tags: ['Java', 'Spring Boot', 'React', 'PostgreSQL'],
-      liveUrl: '#',
-      codeUrl: '#'
+      title: 'First Fashion E-commerce',
+      description: 'The first fashion e-commerce website allowed users to browse clothing online, select styles, purchase securely, and receive deliveries, revolutionizing shopping convenience.',
+      image: '/project5.png',
+      tags: ['Html', 'CSS', 'JavaScript'],
+      liveUrl: 'https://fawas124.github.io/firstfashion/',
+      // codeUrl: '#'
     },
     {
       id: 6,
-      title: 'Fitness Tracking App',
-      description: 'Mobile application for tracking workouts, nutrition, and progress with personalized recommendations.',
-      image: '/project6.jpg',
-      tags: ['React Native', 'Firebase', 'Redux'],
-      liveUrl: '#',
-      codeUrl: '#'
+      title: 'Ocean Breeze Hotel',
+      description: 'Ocean Breeze Hotel offers relaxing stays with modern amenities, ocean views, fine dining, and warm hospitality, creating memorable experiences for every guest.',
+      image: '/project6.png',
+      tags: ['Java', 'Html', 'CSS'],
+      liveUrl: 'http://localhost:8080/Firstproject/login',
+      // codeUrl: '#'
     }
   ];
 
@@ -77,9 +77,9 @@ const Projects = () => {
                   <a href={project.liveUrl} className="project-link" target="_blank" rel="noopener noreferrer">
                     <ion-icon name="globe-outline"></ion-icon> Live Demo
                   </a>
-                  <a href={project.codeUrl} className="project-link" target="_blank" rel="noopener noreferrer">
+                  {/* <a href={project.codeUrl} className="project-link" target="_blank" rel="noopener noreferrer">
                     <ion-icon name="code-slash-outline"></ion-icon> Code
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

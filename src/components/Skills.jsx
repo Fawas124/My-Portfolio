@@ -37,22 +37,20 @@ const Skills = () => {
       { name: 'HTML/CSS', level: 90 },
       { name: 'JavaScript', level: 85 },
       { name: 'React', level: 80 },
-      { name: 'Vue.js', level: 75 },
       { name: 'Bootstrap', level: 85 }
     ],
     backend: [
       { name: 'Java', level: 90 },
       { name: 'Spring Boot', level: 85 },
       { name: 'Node.js', level: 80 },
-      { name: 'Express', level: 75 },
-      { name: 'PHP', level: 70 }
+      { name: 'Express', level: 70 },
+      { name: 'PHP', level: 50 }
     ],
     database: [
       { name: 'MySQL', level: 85 },
       { name: 'MongoDB', level: 80 },
       { name: 'PostgreSQL', level: 75 },
-      { name: 'Oracle', level: 70 },
-      { name: 'Redis', level: 65 }
+      { name: 'Oracle', level: 60 },
     ]
   };
 
