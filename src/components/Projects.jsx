@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'Number_guesser is a web-based game challenging players to guess a secret number within ranges across easy, medium, and hard levels. Hints, a progress bar tracks remaining attempts, scoring rewards accuracy.',
       image: '/project4.png',
       tags: ['Python', 'Flask', 'Postgre Sql', 'MySQL'],
-      liveUrl: '#',
+      // liveUrl: '#',
       // codeUrl: '#'
     },
     {
@@ -51,7 +51,7 @@ const Projects = () => {
       description: 'Ocean Breeze Hotel offers relaxing stays with modern amenities, ocean views, fine dining, and warm hospitality, creating memorable experiences for every guest.',
       image: '/project6.png',
       tags: ['Java', 'Html', 'CSS'],
-      liveUrl: 'http://localhost:8080/Firstproject/login',
+      // liveUrl: '#',
       // codeUrl: '#'
     }
   ];
