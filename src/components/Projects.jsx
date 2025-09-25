@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'Number_guesser is a web-based game challenging players to guess a secret number within ranges across easy, medium, and hard levels. Hints, a progress bar tracks remaining attempts, scoring rewards accuracy.',
       image: '/project4.png',
       tags: ['Python', 'Flask', 'Postgre Sql', 'MySQL'],
-      // liveUrl: '#',
+      liveUrl: 'https://number-guesser-0s44.onrender.com',
       // codeUrl: '#'
     },
     {
