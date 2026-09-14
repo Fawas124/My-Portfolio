@@ -21,15 +21,14 @@ const Hero = ({ setCurrentSection }) => {
         <div className="hero-content">
           <h1>Hi, I'm <span className="highlight">Fawas Surajudeen</span></h1>
           <h2>
-            <span className="highlight">S</span>oftware <span className="highlight">E</span>ngineer || 
-            <span className="highlight"> J</span>ava <span className="highlight">D</span>eveloper || 
-            <span className="highlight"> F</span>ull<span className="highlight">S</span>tack <span className="highlight">D</span>eveloper || 
-            <span className="highlight"> D</span>atabase <span className="highlight">D</span>eveloper
+            <span className="highlight">S</span>oftware <span className="highlight">E</span>ngineer to Aspiring Business Analyst || 
+            <span className="highlight"> B</span>usiness <span className="highlight">C</span>omputing  Data Analytics Student at Middlesex University
+            {/* <span className="highlight"> F</span>ull<span className="highlight">S</span>tack <span className="highlight">D</span>eveloper || 
+            <span className="highlight"> D</span>atabase <span className="highlight">D</span>eveloper ||
+            <span className="highlight"> T</span>urning<span className="highlight">T</span>echnology & Data into Business Solutions */}
           </h2>
           <p>
-            I create innovative digital solutions to help businesses thrive online. 
-            With expertise in multiple technologies and frameworks, I build applications 
-            that are both functional and visually appealing.
+            I combine software engineering, data, and business knowledge to understand problems, analyse requirements, and build practical technology solutions. With a background in full-stack development and database development, I bring a technical perspective to business analysis and help turn technology and data into meaningful business solutions.
           </p>
           
           <div className="cta-buttons">
@@ -45,7 +44,7 @@ const Hero = ({ setCurrentSection }) => {
             <a href="https://www.instagram.com/falzy_frosh05/#" className="social-icon" aria-label="Instagram">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
-            <a href="https://wa.me/+2349043051807" className="social-icon" aria-label="WhatsApp">
+            <a href="https://wa.me/+447344401147" className="social-icon" aria-label="WhatsApp">
               <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
             <a href="https://x.com/FalzyFrosh" className="social-icon" aria-label="Twitter">

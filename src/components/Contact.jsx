@@ -99,7 +99,7 @@ const Contact = () => {
               </div>
               <div className="contact-details">
                 <h4>Phone</h4>
-                <p>+234 904 305 1807</p>
+                <p>+44 7344 401147</p>
               </div>
             </div>
             
@@ -109,7 +109,7 @@ const Contact = () => {
               </div>
               <div className="contact-details">
                 <h4>WhatsApp</h4>
-                <p>+234 904 305 1807</p>
+                <p>+44 7344 401147</p>
               </div>
             </div>
             
@@ -119,7 +119,7 @@ const Contact = () => {
               </div>
               <div className="contact-details">
                 <h4>Location</h4>
-                <p>Lagos, Nigeria</p>
+                <p>London, United Kingdom</p>
               </div>
             </div>
           </div>
